@@ -1,20 +1,35 @@
 .modalContainer {
-  width: 260px;
-  height: 310px;
-  padding: 10px;
+  width: 350px;
+  height: 500px;
   border: none;
   border-radius: 8px;
   background-color: #8576ff;
+  position: relative;
 }
 .modalHeader {
-  width: 100%;
+  width: calc(100% - 32px);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   color: #ffffff;
+  background-color: #000000;
+  padding: 16px;
+  border: none;
+  border-radius: 8px 8px 0 0;
+}
+.modalHeaderText {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
 }
 .modalHeader h3 {
-  font-size: 18px;
+  font-size: 20px;
+}
+.modalHeader p {
+  font-size: 14px;
 }
 .closeBtn {
   display: flex;
@@ -24,16 +39,13 @@
   cursor: pointer;
 }
 .modalBody {
-  width: 100%;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
+  width: calc(100% - 20px);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 .bodyElement {
-  width: calc(100% - 20px);
+  width: calc(100% - 32px);
   height: 50px;
   border: none;
   border-radius: 8px;
@@ -52,4 +64,10 @@
 .bodyElement h3 {
   font-size: 18px;
   color: #000000;
+}
+.brandingIcon {
+  margin-top: 40px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
 }

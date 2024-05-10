@@ -1,0 +1,85 @@
+.feedBackInputSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feedbackInputContainer {
+  width: calc(100% - 32px);
+  padding: 16px;
+  height: 180px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputContainer {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: inherit;
+  color: #000000;
+}
+.messageTextInputContainer {
+  flex: 1;
+  resize: none;
+}
+.messageTextInputContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.messageTextInputContainer::-webkit-scrollbar {
+  display: none;
+}
+.fileInputContainer {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.fileInput {
+  width: 35px;
+  height: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8576ff;
+  cursor: pointer;
+}
+.emailInputContainer {
+  width: calc(100% - 32px);
+  border-radius: 8px;
+  padding: 10px 16px;
+  background-color: #ffffff;
+}
+.submitBtn {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
